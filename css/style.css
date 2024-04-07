@@ -191,10 +191,17 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
+ /*   background: #333333; Changed per Read Me request #3 */
+    background: #74b44a;
+    color: #F1F1F1;
+ /*   border: 2px solid #666666; Changed per Read Me request #3 */    
+    border: 2px solid #74b44a;
+} /*	
+.hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
     color: #F1F1F1;
     border: 2px solid #666666;
-}
+} */
 
 .btn, .btn:visited  {
     width: 100%;
